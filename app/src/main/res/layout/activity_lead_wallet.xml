@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.leadWalletActivity">
+
+    <EditText
+        android:id="@+id/lead_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入助记词/私钥"/>
+
+    <Button
+        android:id="@+id/leadByMnemonic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="助记词导入"/>
+
+    <Button
+        android:id="@+id/leadByPrivateKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="私钥导入"/>
+
+    <TextView
+        android:id="@+id/lead_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:text="生成地址："/>
+
+</LinearLayout>

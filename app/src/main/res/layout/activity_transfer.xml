@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.transferActivity">
+
+    <EditText
+        android:id="@+id/aimAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="转账地址"/>
+
+    <EditText
+        android:id="@+id/Value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="转账金额"/>
+
+    <EditText
+        android:id="@+id/password_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码(若没有密码，则不用填写)"/>
+
+    <Button
+        android:id="@+id/transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="转账"/>
+
+    <Button
+        android:id="@+id/surplus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="余额"/>
+
+    <TextView
+        android:id="@+id/surplus_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

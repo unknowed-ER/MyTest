@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <Button
+        android:id="@+id/createWallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建钱包"/>
+
+    <Button
+        android:id="@+id/leadWallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="导入钱包"/>
+
+    <Button
+        android:id="@+id/transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="转账"/>
+
+
+</LinearLayout>
